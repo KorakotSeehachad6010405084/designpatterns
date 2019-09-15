@@ -8,8 +8,7 @@ import quack.Quackable;
 public class DuckSimulator {
     public static void main(String arg[]){
 
-        // this program has 3 simulator for report in different scenario that so can switch simulator
-        // by change these object that assigned to simulator
+
         Simulator simulator = new CompositeSimulator();
         simulator.setFactory(new SimpleFactory());
         
